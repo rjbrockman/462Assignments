@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Assignment Week 7</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+	<h1> ITMD462 Assignment 7 </h1>
+
+        <!-- ADDUSER label -->
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container">
+            <span class="label label-primary">Add User:</span>
+        </div>
+        <!-- ADDUSER input -->
+        <div class="container">
+            <div class="form">
+                <label>Name: </label>
+                <input type="text" name="userName">
+                <label>Email: </label>
+                <input type="text" name="userEmail">
+                <button id="addUserBtn">Add User</button>
+            </div>
+        </div>
+        <!-- ADDUSER output -->
+        <div class="container">
+            <div class="addUserOutput"></div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+        
+
+        <!-- GETUSER label-->
+        <div class="container">
+            <span class="label label-primary">Get User:</span>
+        </div>
+        <!-- GETUSER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="userid">
+                <button id="getUserBtn">Get User</button>
+            </div>
+        </div>
+        <!-- GETUSER output -->
+        <div class="container">
+            <div class="getUserOutput"></div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+        <!-- DELETEUSER label -->
+        <div class="container">
+            <span class="label label-primary">Delete Single User:</span>
+        </div>
+        <!-- DELETEUSER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="delUserID">
+				<button id="delUserBtn">Delete User</button>
+            </div>
+        </div>
+        <!-- DELETEUSER output -->
+        <div class="container">
+            <div class="delUserOutput"></div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+
+        <!-- ADDREMINDER label-->
+        <div class="container">
+            <span class="label label-primary">Add Reminder:</span>
+        </div>
+        <!-- ADDREMINDER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="userID">
+                <label>Title: </label>
+                <input type="text" name="userTitle">
+                <br>
+                <label>Description: </label>
+                <input type="text" name="userDesc">
+                <button id="addRemBtn">Add Reminder</button>
+            </div>
+        </div>
+        <!-- ADDREMINDER output -->
+        <div class="container">
+            <div class="addRemOutput"> </div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+        <!-- GETSINGLEREMINDER label -->
+        <div class="container">
+            <span class="label label-primary">Get Reminder:</span>
+        </div>
+        <!-- GETSINGLEREMINDER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="userID2">
+                <label>ReminderID: </label>
+                <input type="text" name="reminderID2">
+                <button id="getRemBtn">Get Reminder</button>
+            </div>
+        </div>
+        <!-- GETSINGLEREMINDER output -->
+        <div class="container">
+            <div class="getRemOutput"> </div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+        <!-- GETALLREMINDER label -->
+        <div class="container">
+            <span class="label label-primary">Get All Reminders:</span>
+        </div>
+        <!-- GETSINGLEREMINDER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="userID3">
+                <button id="getAllRemBtn">Get Reminder(s)</button>
+            </div>
+        </div>
+        <!-- GETSINGLEREMINDER output -->
+        <div class="container">
+            <div class="getAllRemOutput"> </div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+        <!-- DELETE SINGLE REMINDER label -->
+        <div class="container">
+            <span class="label label-primary">Delete Single Reminder:</span>
+        </div>
+        <!-- DELETE SINGLE REMINDER input -->
+        <div class="container">
+            <div class="form">
+                <label>UserID: </label>
+                <input type="text" name="delUserID2">
+                <label>ReminderID: </label>
+                <input type="text" name="delRemID">
+				<button id="delRemBtn">Delete Reminder</button>
+            </div>
+        </div>
+        <!-- DELETE SINGLE REMINDER output -->
+        <div class="container">
+            <div class="delRemOutput"></div>
+            </div>
+        <div class="container">
+            <hr>
+        </div>
+
+
+       <!-- DELETEALLREMINDERS label -->
+        <div class="container">
+            <span class="label label-primary">Delete All Reminders:</span>
+        </div>
+        <!-- DELETEALLUSERS input -->
+        <div class="container">
+            <div>
+                <label>UserID: </label>
+                <input type="text" name="delRemUser">
+				<button id="delAllRemBtn">Delete ALL Reminders</button>
+            </div>
+        </div>
+        <!-- DELETEALLUSERS output -->
+        <div class="container">
+            <div class="delAllRemOutput"></div>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+        <script src="javascripts/app.js"></script>
+</body>
+
+</html>
